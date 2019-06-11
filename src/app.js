@@ -44,7 +44,6 @@ const validateBearerToken = (req,res,next) => {
       error: 'Unauthorized request'
     })
   }
-
   next();
 }
 
